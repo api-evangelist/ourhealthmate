@@ -1,7 +1,29 @@
 aid: ourhealthmate
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ourhealthmate.png
 name: OurHealthMate
-description: OurHealthMate is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  OurHealthMate was an Indian digital health-tech startup (a 500 Global / 500
+  Startups portfolio company) that let non-resident Indians book medical
+  appointments, health checkups, and lab tests at hospitals and clinics across
+  India on behalf of family members. The ourhealthmate.com domain now permanently
+  redirects (HTTP 301) to myfitnesswallet.com, a corporate wellness platform
+  operating in India and Singapore that delivers employee wellness programs,
+  telemedicine, health risk assessments, health screenings, and mental-wellness
+  services to enterprise clients. No public API, developer portal, documentation,
+  or well-known discovery surface could be found for either brand as of this
+  enrichment pass; this remains an identity-only company profile in the API
+  Evangelist network with no API artifacts to harvest.
 url: https://raw.githubusercontent.com/api-evangelist/ourhealthmate/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,17 +31,40 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-note: >-
+  ourhealthmate.com 301-redirects to myfitnesswallet.com (corporate wellness
+  rebrand/pivot). The original corporate.ourhealthmate.com host no longer
+  resolves (NXDOMAIN). No API surface found for either brand.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-apis: []
+- Health
+- Healthcare
+- Wellness
+- Telemedicine
+- Medical Tourism
+- India
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+apis: []
 common:
 - type: Website
-  url: https://corporate.ourhealthmate.com
+  url: https://myfitnesswallet.com
+- type: Blog
+  url: https://myfitnesswallet.com/blogs/
+- type: PrivacyPolicy
+  url: https://myfitnesswallet.com/privacy
+- type: TermsOfService
+  url: https://myfitnesswallet.com/terms-of-service
+- type: Support
+  url: https://myfitnesswallet.com/contact-us
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
