@@ -35,7 +35,7 @@ x-note: >-
   ourhealthmate.com 301-redirects to myfitnesswallet.com (corporate wellness
   rebrand/pivot). The original corporate.ourhealthmate.com host no longer
   resolves (NXDOMAIN). No API surface found for either brand.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
